@@ -11,7 +11,7 @@ body {
   align-items: center;
   /* Justify content and height allow content to center itself in the middle of the page */
   justify-content: center;
-  background-color: cornsilk;
+  background-color: lightgray;
   height: 100vh;
   overflow: hidden;
   margin: 0;

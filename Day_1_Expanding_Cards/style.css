@@ -11,14 +11,15 @@ body {
   align-items: center;
   /* Justify content and height allow content to center itself in the middle of the page */
   justify-content: center;
+  background-color: cornsilk;
   height: 100vh;
-  /* overflow: hidden; */
-  /* margin: 0; */
+  overflow: hidden;
+  margin: 0;
 }
 
 .container {
   display: flex;
-  width: 90vh;
+  width: 100vh;
 }
 
 /* Applies to the panel class */
@@ -27,12 +28,12 @@ body {
   background-size: auto 100%;
   background-position: center;
   background-repeat: no-repeat;
-  height: 80vh;
+  height: 95vh;
   border-radius: 50px;
   color: #fff;
   cursor: pointer;
   flex: 0.5;
-  margin: 10px;
+  margin: 8px;
   position: relative;
   transition: flex 0.5s ease-in;
 }
@@ -48,12 +49,12 @@ body {
 }
 
 .panel.active {
-  flex: 8;
+  flex: 10;
 }
 
 .panel.active h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in 0.4s;
+  transition: opacity 0.2s ease-in 0.4s;
 }
 /* These styles will apply when screen size is 480px */
 @media (max-width: 480px) {

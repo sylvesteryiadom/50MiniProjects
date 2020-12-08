@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;1,700&family=Ovo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;1,700&family=Ovo&display=swap');
 
 :root {
   --line-border-fill: #3498db;
@@ -11,7 +11,6 @@
 body {
   font-family: 'Muli', sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
@@ -45,7 +44,7 @@ body {
   z-index: -1;
 }
 
-#progress {
+.progress {
   background-color: var(--line-border-fill);
   position: absolute;
   top: 50%;
@@ -70,7 +69,7 @@ body {
   transition: 0.4s ease;
 }
 
-.cicle.active {
+.circle.active {
   border-color: #3498db;
 }
 
